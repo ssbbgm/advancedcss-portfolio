@@ -1,7 +1,7 @@
 header {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #35e9f0;
     color: #ffffff;
 }
 
@@ -27,6 +27,30 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Main image on page  */
 .hero {
     height: 37.5rem;
+}
+
+/* Container holding the image and the text */
+.work-samples {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+
+  .work-samples img {
+    border: 4px solid blue;
+    height: 27.5rem;
+  }
+  
+/*Bottom right text */
+.image-text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
