@@ -26,3 +26,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+.hero {
+    height: 37.5rem;
+}
