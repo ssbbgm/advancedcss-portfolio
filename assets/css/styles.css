@@ -138,6 +138,7 @@ nav a {
 .image-4:hover,
 .image-5:hover {
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 /* .image-text-block {
