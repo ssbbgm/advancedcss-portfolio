@@ -7,7 +7,7 @@ body {
     text-align: center;
 }
 header {
-    display: flex;
+    display: inline;
     align-content: space-around;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -147,6 +147,8 @@ footer nav ul {
 }
 
 footer nav ul li {
+    display: inline;
+    justify-content: center;
     padding: 20px;
 }
 
