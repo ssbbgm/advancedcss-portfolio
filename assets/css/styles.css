@@ -171,21 +171,39 @@ footer nav ul li {
 
 /* Responsive Elements */
 
-@media screen and (min-width: 375px) { 
-    header {
+@media screen and (max-width:768px ) { 
+    header, footer {
         display: flex;
         flex-direction: column;
     }
 
-    nav ul {
+    header nav ul {
         display: flex;
         align-content: center;
         justify-content: space-between;
         min-width: 325px;
         padding: 0%;
-      }
+    }
 
       .header-bottom p {
         text-align: center;
         padding: 10px;
+        width: 100%;
+    }
+
+    .image-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    footer h2 {
+        margin-bottom: 1%;
+    }
+
+    footer nav ul {
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 }
