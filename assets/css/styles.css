@@ -11,7 +11,7 @@ body {
     margin: 0px;
     text-align: center;
     background-color: #d00000ff;
-}
+    font-family: "Shadows Into Light", sans-serif;}
 
 /* All elements above banner with my picture */
 header {
@@ -153,6 +153,14 @@ p {
     grid-column: 3;
     border: 2px solid #3f88c5ff;
 }
+
+div[class^="image-"] {
+    border-radius: 15px;
+  }
+
+div[class^="image-"] > img {
+    border-radius: 15px;
+  }
 
 .image-1:hover,
 .image-2:hover,
