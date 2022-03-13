@@ -59,7 +59,7 @@ nav a {
 .header-bottom {
     display: flex;
     align-items: flex-start;
-    background-image: url(/assets/images/—Pngtree—abstract\ grey\ gradient\ background_1203311.jpg);
+    background-image: url(../images/graybackground.jpg);
     height: 200px; /* You must set a specified height */
     width: 100%;
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -211,6 +211,14 @@ footer nav ul li {
     .image-grid {
         grid-template-columns: auto;
         grid-template-rows: auto;
+    }
+
+    .image-1,
+    .image-2,
+    .image-3,
+    .image-4,
+    .image-5 {
+      grid-column: 1;
     }
 
     footer h2 {
