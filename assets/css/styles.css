@@ -1,3 +1,5 @@
+
+/* Affects all of the page */
 html { 
     height: 100%;
     scroll-behavior: smooth;
@@ -8,6 +10,7 @@ body {
     text-align: center;
 }
 
+/* All elements above banner with my picture */
 header {
     display: flex;
     justify-content: space-between;
@@ -46,7 +49,7 @@ nav a {
     color: #fff;
   }
   
-
+/* Space with my my picture */
 .header-bottom {
     display: flex;
     align-items: flex-start;
@@ -61,6 +64,7 @@ nav a {
     width: 200px;
 }
 
+/* This is the writing next to my picture */
 .header-bottom p {
     position: flex;
     align-self: center;
@@ -74,6 +78,7 @@ nav a {
 
 }
 
+/* About Me Section */
 .direction {
     display: flex;
     flex-direction: column;
@@ -81,6 +86,7 @@ nav a {
     margin: 10px;
 }
 
+/* Work Section */
 .image-grid {
     --gap: 16px;
     --num-cols: 4;
@@ -92,7 +98,7 @@ nav a {
 
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 0.5fr);
-    grid-auto-rows: var(--row-height);
+    grid-auto-rows: auto;
     gap: var(--gap);
 
 
@@ -141,14 +147,7 @@ nav a {
     cursor: pointer;
 }
 
-/* .image-text-block {
-    position: absolute; 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-} */
-
-
+/* Footer Sections  */
 footer {
     display: flex;
     justify-content: center;
@@ -170,3 +169,23 @@ footer nav ul li {
     padding: 20px;
 }
 
+/* Responsive Elements */
+
+@media screen and (min-width: 375px) { 
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        min-width: 325px;
+        padding: 0%;
+      }
+
+      .header-bottom p {
+        text-align: center;
+        padding: 10px;
+}
