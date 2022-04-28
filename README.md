@@ -7,9 +7,8 @@
 ## VISUALS
 
 
-![This is a part 1 gif of the project.](./assets/GIF/hw2advancedcss1.gif)
+![This is a screenshot of the project.](./assets/images/updatedscreenshot.png)
 
-![This is a part 2 gif of the project.](./assets/GIF/hw2advancedcss2.gif)
 
 ## POINTS OF INTEREST
 
