@@ -1,4 +1,4 @@
-# hw2-advancedcss-portfolio
+# Portfolio
 
 # DESCRIPTION
 
@@ -24,4 +24,4 @@
 
 ## DEPLOYED APPLICATION
 
- https://ssbbgm.github.io/hw2-advancedcss-portfolio/
+https://ssbbgm.github.io/advancedcss-portfolio/
